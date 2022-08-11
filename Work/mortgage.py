@@ -11,3 +11,12 @@ while principal > 0:
     total_paid = total_paid + payment
 
 print('Total paid', total_paid)
+
+while i <13:
+    principal = principal * (1+rate/12) - (payment+1000)
+    total_paid = total_paid + payment+1000
+    i+=1
+while principal>0:
+    principal = principal * (1 + rate / 12) - payment 
+    total_paid = total_paid + payment
+print('Total paid', total_paid)
